@@ -33,3 +33,16 @@ create table test1
 insert into test1 (id, name)
 values (1, '张三');
 </code>
+
+## 测试
+启动项目后访问 http://localhost:8080/test1/findAll
+若出现如下结果，说明数据库连接成功
+
+<code>
+[
+    {
+        "id": 1,
+        "name": "张三"
+    }
+]
+</code>

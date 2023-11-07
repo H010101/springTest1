@@ -1,7 +1,7 @@
 # springTest1
 One spring test project
 
-## 使用的技术
+## 技术栈
 1. Spring Boot
 2. mybatis
 
